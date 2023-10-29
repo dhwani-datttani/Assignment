@@ -1,0 +1,36 @@
+<Doctype html>
+    
+    <style>
+        body {
+            font-family: calibri;
+        }
+        label,input,h1{
+            margin: 10px 0;
+        }
+        button{
+            background-color:rgb(127, 127, 241);
+            color:white;
+            padding:10px;
+        }
+    </style>
+     <script src="main.js"></script>
+    <body>
+        <h1>Login page</h1>
+        <form id="loginForm" >
+            <div>
+                <label for="username"></label>
+                <input type="text" id="username" placeholder="loginid" required>
+            </div>
+            <div>
+                <label for="password"></label>
+                <input type="password" id="password" placeholder="password" required>
+            </div>
+            <div>
+                <button type="button" onclick="login()">Submit</button>
+            </div>
+        </form>
+    </body>
+    <p id="message"></p>
+   
+    
+</html>

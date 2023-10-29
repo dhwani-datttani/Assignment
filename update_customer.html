@@ -1,0 +1,55 @@
+<Doctype html>
+    <script src="table.js"></script>
+    </script>
+    <style>
+        body {
+            font-family: callibri;
+        }
+        label,input,h1{
+            margin: 10px 10px;
+        }
+        button{
+            background-color:rgb(127, 127, 241);
+            color:white;
+            padding:10px;
+        }
+    </style>
+    <body>
+        <h1>Update a Customer</h1>
+        <form id="updateCustomerForm">
+            <div class="form-group">
+                <label for="first_name"></label>
+                <input type="text" id="first_name" placeholder="first name" required>
+                
+                <label for="last_name"></label>
+                <input type="text" id="last_name" placeholder="last name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="street"></label>
+                <input type="text" id="street" placeholder="street">
+
+                <label for="address"></label>
+                <input type="text" id="address" placeholder="address">
+            </div>
+
+            <div class="form-group">
+                <label for="city"></label>
+                <input type="text" id="city" placeholder="city">
+            
+                <label for="state"></label>
+                <input type="text" id="state" placeholder="state">
+            </div>
+
+            <div class="form-group">
+                <label for="email"></label>
+                <input type="email" id="email" placeholder="email">
+        
+                <label for="phone"></label>
+                <input type="text" id="phone" placeholder="phone number">
+            </div>
+
+            <button type="button" id="updateCustomerButton" onclick="updateCustomerForm()">submit</button>
+        </form>
+    </body>
+</html>
